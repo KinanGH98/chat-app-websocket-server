@@ -16,8 +16,6 @@ wss.on('connection', (ws) => {
             }
         });
     });
-
-    ws.send('Welcome to the chat!');
 });
 
 module.exports = (req, res) => {
