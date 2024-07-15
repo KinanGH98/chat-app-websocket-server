@@ -1,17 +1,18 @@
 {
   "name": "webscoket-server",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api/index.js",
-    "server": "nodemon api/index.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kinan GH",
   "license": "ISC",
-  "description": "",
+  "description": "WebSocket server for chat application",
   "dependencies": {
-    "ws": "^8.18.0"
+    "ws": "^8.18.0",
+    "http": "^0.0.1-security"
   }
 }
